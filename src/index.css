@@ -30,6 +30,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('./red-felt-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -49,16 +52,18 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #ff3333;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+button:not(:last-of-type) {
+  margin-right: 1rem;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
   a:hover {
