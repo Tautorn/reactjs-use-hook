@@ -30,7 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('./red-felt-bg.jpg');
+  background-image: url('./assets/red-felt-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

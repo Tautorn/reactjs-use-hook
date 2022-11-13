@@ -25,7 +25,7 @@ function CurrentVersion({ cardClass }: CurrentVersionProps) {
     fetchCards(cardClass)
       .catch(console.error)
 
-  }, [])
+  }, [cardClass])
 
   const renderClasses = (card: any, key: number) => {
     return (
